@@ -1,0 +1,47 @@
+.mobile__calendar {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  align-items: center;
+  color: white;
+  z-index: 1;
+}
+
+.mobile__history1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 0;
+  background-color: #171717;
+  padding: 10px;
+  border-radius: 8px;
+  width: 270px;
+  font-size: small;
+  margin-bottom: 10px;
+}
+
+.history__icon{
+  margin-right: -35px;
+  font-size: 20px;
+}
+
+.history__amount{
+  margin-left: 20px;
+}
+
+.mobile__history2, .mobile__history3, .mobile__history4, .mobile__history5{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 0;
+  background-color: #171717;
+  padding: 10px;
+  border-radius: 8px;
+  width: 270px;
+  font-size: small;
+  margin-bottom: 10px;
+}
